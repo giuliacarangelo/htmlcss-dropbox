@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.dashed-test{
+    border: black dashed 1px;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-sec{
+    width: 25%;
+    height: 100%;
+}
+
+.login-sec{
+    width: 25%;
+    height: 100%;
+}
+
+.jumbo-container{
+    position: relative;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.jumbo-text-cover{
+}
+
+.jumbo-cover{
+    position: absolute;
+    width: 40%;
+}
+
+main{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.business-cards{
+    display: flex;
+}
+
+.plan-title{
+    display: block;
+}
+
+.third{
+    width: calc( 100% / 3 );
+    padding: 40px 30px;
+    display: flex;
+}
+
+.plan{
+    flex-direction: column;
+}
