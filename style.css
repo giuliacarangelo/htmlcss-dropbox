@@ -216,7 +216,6 @@ li.check i{
     margin: 0;
     padding: .7rem 1.5rem;
     border: 1px solid lightgrey;
-    border-right: none;
     border-top: none;
     display: flex;
 }
@@ -232,6 +231,10 @@ li.check i{
 
 .half-70{
     width: 70%;
+}
+
+.half-30{
+    width: 30%;
 }
 
 .dropbox-partner{
