@@ -47,16 +47,21 @@ nav{
     height: 100%;
 }
 
+.jumbo{
+    background-color: #b4d0e7;
+    height: 650px;
+}
+
 .jumbo-container{
     margin: 0 auto;
     width: 60%;
-    background-color: #b4d0e7;
 }
 
 .jumbo-header{
     font-size: 3.5rem;
-    font-weight: bolder;
+    font-weight: 900;
     padding: 2rem 0rem;
+    max-width: 750px;
 }
 
 .col-30{
@@ -73,7 +78,9 @@ nav{
 
 .col-70 img{
     position: absolute;
-    width: 70%;
+    bottom: 110px;
+    right: 200px;
+    width: 50%;
 }
 
 .business-cards{
