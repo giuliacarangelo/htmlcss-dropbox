@@ -193,6 +193,10 @@ li.check i{
     padding: .4rem 0;
 }
 
+.enterprise-container{
+    padding-bottom: 140px;
+}
+
 .enterprise-plan{
     width: 100%;
 }
@@ -209,7 +213,7 @@ li.check i{
 }
 
 .enterprise-title{
-    padding-top: 1.2rem;
+    padding-top: 2rem;
 }
 
 .enterprise-section{
@@ -237,13 +241,31 @@ li.check i{
     width: 30%;
 }
 
+.half-60{
+    width: 60%;
+}
+
 .dropbox-partner{
     display: flex;
 }
 
 .partner-paragraph{
+    display: flex;
+    flex-direction: column;     
     width: 30%;
     padding: 2.2rem 2rem;
+}
+
+.partner-paragraph p{
+    padding: 2rem 0;
+}
+
+.white-button{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: .7rem .2rem;
+    margin: 1.5rem 0;
 }
 
 .half-20{
