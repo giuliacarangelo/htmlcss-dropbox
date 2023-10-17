@@ -14,9 +14,13 @@ body{
     font-weight: bold;
 }
 
+.flex-container{
+    display: flex;
+}
+
 main{
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 }
 
 nav{
@@ -76,6 +80,13 @@ nav{
     margin: 1.5rem 0;
 }
 
+.col-30 i{
+    position: absolute;
+    bottom: 210px;
+    font-size: 3rem;
+    align-items: flex-end;
+}
+
 .col-70 img{
     position: absolute;
     bottom: 110px;
@@ -83,22 +94,87 @@ nav{
     width: 50%;
 }
 
+.business-plans{
+    padding-top: 150px;
+}
+
+.business-plans h2{
+    font-size: 2rem;
+    padding-bottom: .9rem;
+}
+
+.business-plans input{
+    display: inline-block;
+    background-color: #005fff;
+}
+
+.business-plans input{
+    padding-right: 1rem;
+}
+
 .business-cards{
     display: flex;
 }
 
 .plan-title{
-    display: block;
+    font-size: 0.5rem;
 }
 
 .third{
     width: calc( 100% / 3 );
-    padding: 40px 30px;
+    margin: 3rem 0;
+    padding: .7rem 1.5rem;
+    border: 1px solid lightgrey;
     display: flex;
+}
+
+.plan i{
+    padding: 0 .3rem;
 }
 
 .plan{
     flex-direction: column;
+}
+
+.plan h2{
+    padding-top: 2rem;
+}
+
+.plan p.price{
+    font-weight: bold;
+    padding: 0 0 .8rem 0;
+}
+
+.plan span.grey{
+    color: grey;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.inner-sec-list i{
+    font-size: .9rem;
+}
+
+.blue-button-sections{
+    border: none;
+    background-color: #0061ff;
+    color: white;
+    padding: .7rem 2.5rem;
+    margin: 1.5rem 0;
+}
+
+.buy-now{
+    padding-left: .2rem;
+}
+
+h3.price{
+    padding: 2.5rem 0;
+}
+
+.check{
+    color: #0061ff;
 }
 
 .enterprise-plan{
