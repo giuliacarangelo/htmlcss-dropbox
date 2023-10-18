@@ -113,6 +113,8 @@ nav{
 }
 
 .business-cards{
+    width: calc(100% - 2rem);
+    justify-content: space-between;
     display: flex;
 }
 
@@ -242,11 +244,12 @@ li.check i{
 }
 
 .half-60{
-    width: 60%;
+    width: 600px;
 }
 
 .dropbox-partner{
     display: flex;
+    margin-bottom: 5rem;
 }
 
 .partner-paragraph{
@@ -267,6 +270,25 @@ li.check i{
     padding: .7rem .2rem;
     margin: 1.5rem 0;
 }
+
+.sezione-business{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.business-pro{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.business-pro img{
+    width: 100%;
+}
+
 
 .half-20{
     width: 15%;
