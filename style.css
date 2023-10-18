@@ -282,7 +282,12 @@ li.check i{
     width: 30%;
     height: auto;
     display: flex;
+    margin: 3rem 2rem;
     flex-direction: column;
+}
+
+.business-pro h3{
+    padding-bottom: 1.5rem;
 }
 
 .business-pro img{
