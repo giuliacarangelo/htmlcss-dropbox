@@ -421,18 +421,67 @@ article img{
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid lightgray;
+    padding-top: 1.5rem;
+    margin-bottom: 10rem;
 }
 
 .qna-container button{
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }
 
 .qna-container i{
     padding-left: 150px;
+}
+
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 100px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-name{
+    font-size: 1.25rem;
+    padding: 1.2rem 0;
+}
+
+.list-section{
+    justify-content: flex-start;
+
+}
+
+.list-section li{
+    padding: .5rem 0;
+}
+
+.section-one{
+    padding-bottom: 200px;
+    border-bottom: 1px solid white;
+}
+
+.downer-footer{
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.language-menu{
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 100;
+}
+
+h5.choose-language, .language-menu{
+    color: white;
 }
