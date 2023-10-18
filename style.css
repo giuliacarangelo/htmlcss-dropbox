@@ -320,7 +320,11 @@ article{
     background-color: #a2d39b;
     border: 10px solid rgba(255, 255, 255, .6)
 }
+
 .bg-bordeaux{
+    background-color: #61082b;
+}
+.bg-bordeaux:hover {
     background-color: #61082b;
 }
 
@@ -397,4 +401,38 @@ article img{
     color: black;
     border: none;
     padding: .6rem 2rem;
+}
+
+.accordion-menu{
+    padding-top: 5rem;
+}
+
+.accordion-menu h2{
+    padding: 2.5rem 0;
+}
+
+.accordion-menu h3{
+    display: inline-block;
+    padding: 2.6rem 0;
+    border-top: 2px solid lightgray;
+}
+
+.qna-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid lightgray;
+}
+
+.qna-container button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.qna-container i{
+    padding-left: 150px;
 }
