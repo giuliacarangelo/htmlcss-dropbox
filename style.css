@@ -82,7 +82,7 @@ nav{
 
 .col-30 i{
     position: absolute;
-    bottom: 210px;
+    bottom: 20px;
     font-size: 3rem;
     align-items: flex-end;
 }
@@ -311,6 +311,10 @@ article{
     height: 50%;
 }
 
+article:hover{
+    border: 10px solid rgba(255, 255, 255, .6)
+}
+
 .center-square{
     height: 30vw;
     border: 1PX solid black;
@@ -318,7 +322,6 @@ article{
 
 .bg-green{
     background-color: #a2d39b;
-    border: 10px solid rgba(255, 255, 255, .6)
 }
 
 .bg-bordeaux{
