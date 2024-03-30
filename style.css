@@ -423,7 +423,6 @@ article img{
 .qna-container{
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid lightgray;
     padding-top: 1.5rem;
     margin-bottom: 10rem;
 }
